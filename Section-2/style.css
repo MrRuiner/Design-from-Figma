@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Neue Machina";
+    src: local("Neue Machina"), url(../Section-1/Fonts/NeueMachina-Regular.ttf) format(truetype);
+}
+
+* {
+    font-family: "Neue Machina";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+body {
+    background-color: #171732;
+}
+
+.nav_logo {
+    padding: 30px 30px 30px 30px;
+}
+
+header {
+    height: max-content;
+    padding-bottom: 70px;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.lang_nav {
+    color: #fff;
+    text-shadow: 1px -1px 4px rgba(0, 0, 0, 1);
+    margin: 40px 0 0 20px;
+}
+
+.lang_nav:hover {
+    transform: scale(2, 0.5);
+}
+
+.lang_nav_ru {
+    color: rgb(136, 136, 136);
+    text-shadow: 1px -1px 4px rgba(0, 0, 0, 1);
+    margin: 40px 0 0 20px;
+}
+
+.lang_nav_ru:hover {
+    color: #fff;
+    transition: 0.1s;
+    transform: rotate3d(1, 2.0, 3.0, 10deg);
+}
+
+
+.nav_num {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_info {
+    margin: 40px 0 0 600px;
+}
+
+.btn_nav {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.burger_nav {
+    width: 50px;
+    margin: -10px 0 0 40px;
+    position: absolute;
+    height: 50px;
+}
+
+
+.left {
+    position: absolute;
+    margin: 150px 0 0 0;
+}
+
+.header_title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+    padding: 20px 0 20px 100px;
+    letter-spacing: 1px;
+}
+
+.wrapper_info_header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 0 0 100px;
+    height: 0 auto;
+    justify-content: space-between;
+}
+
+.img_ih_second {
+    height: 300px;
+}
+
+.info_text {
+    color: #fff;
+    font-weight: 100;
+}
+
+.info_title {
+    color: #fff;
+    margin-bottom: 10px;
+}
