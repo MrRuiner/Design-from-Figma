@@ -15,10 +15,11 @@
 .container {
     margin: 0 auto;
     max-width: 1400px;
-}
+}   
 
 body {
     background-color: #171732;
+    overflow-x: hidden;
 }
 
 .nav_logo {
@@ -87,38 +88,72 @@ nav {
     margin: 150px 0 0 0;
 }
 
-.header_title {
+
+.title_header {
     color: #fff;
-    text-transform: uppercase;
+    padding: 20px 0 0 70px;
     font-size: 45px;
-    padding: 20px 0 20px 100px;
+    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.wrapper_info_header {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin: 0 0 0 100px;
-    height: 0 auto;
-    justify-content: space-between;
-}
-
-.img_ih_first {
-    width: 400px;
-    height: 300px;
-}
-
-.img_ih_second {
-    height: 300px;
-}
-
-.info_text {
+.header_info {
     color: #fff;
-    font-weight: 100;
+    padding: 35px 0 0 30px;
+}
+
+.header_title_wrapper {
+    display: flex;
+}
+
+.first_info_img {
+    height: 400px;
+}
+
+.first_info {
+    margin: 20px 0 0 50px;
+    border: 1px solid #fff;
+    height: 500px;
+    width: 600px;
+}
+
+.second_info_img {
+    top: -130px;
+    left: -55px;
+    position: relative;
+    height: 700px;
+}
+
+.header_info_wrapper {
+    display: flex;
 }
 
 .info_title {
+    margin-left: 30px;
     color: #fff;
-    margin-bottom: 10px;
+}
+
+.info_more {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.second_info {
+    margin: 20px 0 0 50px;
+    border: 1px solid #fff;
+    height: 500px;
+    width: 600px;
+}
+
+
+.info_title_sec {
+    color: #fff;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+}
+
+.info_more_second {
+    color: #fff;
+    position: absolute;
+    margin: 80px 0 0 -255px;
 }
